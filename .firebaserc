@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "functions-tutorial-f00b5": {
+      "hosting": {
+        "app": [
+          "functions-tutorial-f00b5"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "functions-tutorial-f00b5"
+  }
+}
