@@ -1,11 +1,14 @@
 <ion-header>
   <ion-toolbar>
     <ion-buttons slot="start">
-      <ion-back-button></ion-back-button>
       <ion-button (click)="toggleMenu()">
         <ion-icon slot="icon-only" name="menu"></ion-icon>
       </ion-button>
+      <ion-back-button></ion-back-button>
     </ion-buttons>
-    <ion-title>My Navigation Bar</ion-title>
+    <ion-title color="primary">GameSite</ion-title>
+    <ion-button (click)="logOut()" expand="block" fill="clear" shape="round" slot="end">
+      <ion-icon slot="end" name="log-out-outline"></ion-icon>
+    </ion-button>
   </ion-toolbar>
 </ion-header>

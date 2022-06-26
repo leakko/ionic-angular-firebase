@@ -16,4 +16,8 @@ export class HeaderComponent implements OnInit {
     this.menuCtrl.toggle();
   }
 
+  logOut() {
+    
+  }
+
 }

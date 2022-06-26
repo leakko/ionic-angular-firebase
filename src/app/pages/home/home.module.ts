@@ -8,13 +8,14 @@ import { HomePageRoutingModule } from './home-routing.module';
 
 import { HomePage } from './home.page';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { GamesListComponent } from './components/games-list/games-list.component';
 
 @NgModule({
   imports: [
     CommonModule,
     HomePageRoutingModule,
-    SharedModule
+    SharedModule,
   ],
-  declarations: [HomePage]
+  declarations: [HomePage, GamesListComponent]
 })
 export class HomePageModule {}

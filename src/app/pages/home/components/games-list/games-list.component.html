@@ -1,0 +1,11 @@
+<ion-list>
+  <ion-list-header>
+    <ion-label><h2>{{title}}</h2></ion-label>
+  </ion-list-header>
+  <ion-item *ngFor="let game of games">
+    <ion-label>
+      <h3>{{game.name}}</h3>
+      <p>{{game.description}}</p> 
+    </ion-label>
+  </ion-item>
+</ion-list>
